@@ -266,7 +266,7 @@ if uploaded_file:
                                 topMargin=50, bottomMargin=50)
         styles = getSampleStyleSheet()
         story = []
-        story.append(Paragraph("ErgoVision — Biomechanics Risk Report", styles["Title"]))
+        story.append(Paragraph("NosillaRisk — Online Biomechanics Risk Report", styles["Title"]))
         story.append(Paragraph(f"Generated: {datetime.datetime.now().strftime('%B %d, %Y')}", styles["Normal"]))
         story.append(Spacer(1, 0.2*inch))
         table_data = [["Joint","Peak Angle","Risk"]]
@@ -291,5 +291,5 @@ if uploaded_file:
         story.append(Image(map_path, width=2*inch, height=3.5*inch))
         doc.build(story)
         with open("report.pdf","rb") as f:
-            st.download_button("Download PDF Report", f, "ergonomic_report.pdf",
+            st.download_button("Download PDF Report", f, "nosillarisk_report.pdf",
                                type="primary")
