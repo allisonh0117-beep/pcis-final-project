@@ -188,9 +188,9 @@ def process_video(video_path, detector):
     return angle_data, worst_scores, out_path
 
 # ── UI ──────────────────────────────────────────────
-st.title("🦴 ErgoVision")
-st.subheader("Biomechanics Risk Analyzer")
-st.write("Upload a video of someone performing a physical task to get a full ergonomic risk report.")
+st.title("🐹 ErgoVision")
+st.subheader("Online Biomechanics Risk Analyzer")
+st.write("Upload a video of someone performing a physical task to get a full ergonomic risk report!")
 
 uploaded_file = st.file_uploader("Upload video", type=["mp4","mov","avi"])
 
