@@ -19,7 +19,7 @@ import urllib.request
 
 # Page config
 st.set_page_config(
-    page_title="ErgoVision",
+    page_title="NosillaRisk",
     page_icon="🐹",
     layout="centered"
 )
@@ -188,7 +188,7 @@ def process_video(video_path, detector):
     return angle_data, worst_scores, out_path
 
 # ── UI ──────────────────────────────────────────────
-st.title("🐹 ErgoVision")
+st.title("🐹 NosillaRisk")
 st.subheader("Online Biomechanics Risk Analyzer")
 st.write("Upload a video of someone performing a physical task to get a full ergonomic risk report!")
 
