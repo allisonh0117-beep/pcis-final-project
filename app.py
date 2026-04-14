@@ -20,7 +20,7 @@ import urllib.request
 # Page config
 st.set_page_config(
     page_title="ErgoVision",
-    page_icon="🦴",
+    page_icon="🐹",
     layout="centered"
 )
 
