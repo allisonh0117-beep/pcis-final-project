@@ -2,3 +2,4 @@ libgl1-mesa-dev
 libsm6
 libxrender1
 libxext6
+libglib2.0-dev
